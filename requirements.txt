@@ -1,0 +1,9 @@
+Pillow
+torch
+numpy
+matplotlib
+python-dotenv
+retry
+git+https://github.com/openai/CLIP.git
+openai
+salesforce-lavis

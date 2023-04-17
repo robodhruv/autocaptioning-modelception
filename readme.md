@@ -27,3 +27,11 @@ To use the CaptionGenerator outside of this notebook, simply run
 ```
 python CaptionGenerator.py
 ```
+
+
+
+### GLIP_server
+
+TODO
+
+This is a bit involved and took me a while to get set up. For now, you can ignore this and just run the `CaptionGenerator` using a server running on Dhruv's Berkeley workstation.

@@ -70,7 +70,7 @@ class CaptionGenerator:
             self.gpt_model = "gpt-3.5-turbo"
         self.blip_model, self.vis_processors, _ = load_model_and_preprocess(name="blip_caption", model_type="base_coco", is_eval=True, device=self.device)
         self.clip_model, self.clip_preprocess = clip.load("ViT-L/14", device=self.device)
-        self.glip_client = GLIPClient(server_url="https://9cfc-128-32-255-23.ngrok-free.app/process_image", threshold=0.5)
+        self.glip_client = GLIPClient(server_url="http://thestral.bair.berkeley.edu:1027/process_image", threshold=0.5)
 
     def set_words(self, words):
         self.words = words

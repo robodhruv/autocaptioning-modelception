@@ -70,7 +70,7 @@ class GLIPClient:
 
 
 if __name__ == "__main__":
-    image_path = './test.png'
+    image_path = 'test_images/house_kitchen.png'
     # image_path = './GLIP_demo.jpeg'
     # caption = "planter box. blue cabinet. door. window. staircase well "
     # words = ["bedroom", "living room", "bathroom", "kitchen", "dining room", "office room", "gym", "lounge", "laundry room", "closet", "fouyer"]
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     # caption_string = "A green umbrella. A pink striped umbrella. A plain white umbrella."
     # caption_string = "A pink stripped umbrella"
 
-    server_url = "https://9cfc-128-32-255-23.ngrok-free.app/process_image"
+    server_url = "http://thestral.bair.berkeley.edu:1027/process_image"
 
     # print(len(words))
     image = Image.open(image_path)

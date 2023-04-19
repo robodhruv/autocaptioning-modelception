@@ -32,6 +32,22 @@ python CaptionGenerator.py
 
 ### GLIP_server
 
-TODO
+#### Option 1 (Setup server)
 
-This is a bit involved and took me a while to get set up. For now, you can ignore this and just run the `CaptionGenerator` using a server running on Dhruv's Berkeley workstation.
+GLIP has some weird dependencies, so I'd recommended running a server inside a docker image. Follow these steps:
+1. Make sure your workstation has `nvidia-docker`. If not, install this first.
+2. `docker pull pengchuanzhang/pytorch:ubuntu20.04_torch1.9-cuda11.3-nccl2.9.9`
+3. Install the [GLIP repository](https://github.com/microsoft/GLIP) and `cd` inside it. 
+4. Enter the docker container using `nvidia-docker run -it -v $(pwd):/workspace pengchuanzhang/pytorch:ubuntu20.04_torch1.9-cuda11.3-nccl2.9.9`. Then run these steps:
+```
+pip install einops shapely timm yacs tensorboardX ftfy prettytable pymongo
+pip install transformers 
+python setup.py build develop --user
+```
+5. You are now ready to run the server. Copy the `glip_server.py` file from this repo into the GLIP repo.
+6. Run `python glip_server.py`. This will take a while to download the right model and if successful, give you a server address. This will likely be `172.17.0.2:5000`.
+7. To ensure this works fine, edit `glip_client.py` in this repo to use the correct server address (e.g., `172.17.0.2:5000/process_image`), then run `python glip_client.py`. If successful, this will output some bbox and caption predictions of the test image.
+
+#### Option 2
+
+If this is too involved and you only want to play around with this briefly, feel free to run the `CaptionGenerator` using a server running on Dhruv's Berkeley workstation (thestral.bair.berkeley.edu:1027/process_image), and follow step 7 above.

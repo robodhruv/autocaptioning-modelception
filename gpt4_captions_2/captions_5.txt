@@ -1,0 +1,100 @@
+Arrange A, B in container m.
+Arrange A, B, and m in a horizontal line.
+Put A in container m and place B diagonally below m.
+Put B in container m and place A above it.
+Place A and B in a vertical line, with m at the top of the table.
+Arrange A and B diagonally, and place them in container m.
+Put A in container m, and place B at the bottom right.
+Place A and B at the top left and bottom right, and put m in the center of the table.
+Arrange A and B horizontally, and place container m between them.
+Put A at the top left, B inside container m, and place container m at the center of the table.
+Arrange A and B in a diagonal line and put B in container m.
+Put A in container m and place B to the right of container m.
+Place A to the left of container m and B above container m.
+Arrange A, B, and container m in a horizontal line.
+Place A in container m, and arrange B diagonally below container m.
+Arrange A in the center of the tabletop.
+Place A at a bottom corner.
+Place A at the top-left corner.
+Put A at the top-right corner.
+Set A at the bottom-right corner.
+Place A above B and put B in container m.
+Place container m in the middle of the table with objects A and B on either side.
+Create a triangle with containers m and objects A, B, and C.
+Place container m on the bottom left of the table, A on the bottom right, and B on the top right.
+Put A in container m and place B above container m.
+Arrange A and B in a diagonal line on the table.
+Place A and B next to each other horizontally and B in the container n.
+Place A and B next to each other vertically and A in the container m.
+Arrange A and B in the top left and bottom right corners respectively, with A in the container n and B in the container m.
+Place A in the center and B in the top right corner, with A in the container n.
+Place A next to m, both on bottom of the table.
+Place A inside m at the top right corner of the table.
+Diagonal placement of A and m, A at top left and m at bottom right.
+Place A at the center of the table and m at the top center.
+Place A at bottom left corner and m at top right corner.
+Arrange A, m, and n in a horizontal line on the table.
+Put A in m, place n to the right of m.
+Put A in n, place m to the left of n.
+Place A, n, and m in a vertical line on the table.
+Arrange A, m, and n in a triangle shape.
+Put A in m and place B to the right.
+Place A and B diagonally and put B in m.
+Put A and B in m, and place m at the center.
+Place A to the left of m and B in m.
+Put A in m, place m to the left of B.
+Place n at the center, A in n, B in m, and C on the left.
+Place m in the center, C on the right, B in n, and A on the top-left corner.
+Put A in n, B in m, C beneath n, and m above n.
+Put C in n, A in m, B between n and m.
+Place A, B, and C on the right-most column and n and m on the left-most column.
+Arrange A and B diagonally and put C in n.
+Put A and B in container n and m respectively, and place C at the top left corner.
+Place A, C, and n in a vertical line and B in the top right corner.
+Arrange A, B and C in a horizontal line and put A in n.
+Arrange A, B, and n in a triangle and put C in n.
+Place A at the bottom left corner, B at the bottom right, and n on top of A, and m on top of B.
+Place n in the middle, A inside n, m on the top right corner, and B on the top left corner of the grid.
+Place A and B diagonally from each other and both of them inside their respective containers n and m.
+Place A and B in the middle, n on the left side of A, and m on the right side of B.
+Place A at the top right corner, B at the bottom left corner, and both containers (n and m) on the same center position.
+Arrange A in container m, and place m and n diagonally.
+Place A to the left of container m and container n to the right of m.
+Place A inside container n, and place containers m and n at opposite corners of the table.
+Arrange A, container m, and container n in a vertical line.
+Place A, container m, and container n in an arc.
+Put A, B, and C in a vertical line and put all of them in container m.
+Put C in container m and arrange A, B, and m in a triangle.
+Put A on container m, B on the left, and C on the right.
+Put container m and all objects in a straight line diagonally.
+Put C in the container m and put A and B to the left and right of m.
+Arrange A and B inside container n, and container m to the right of n.
+Place A inside container m, and B and container n to the right of m.
+Place A inside container n, B inside container m, and m below n.
+Arrange all objects and containers in a row from left to right: A, m, B, n.
+Create a triangle arrangement with A in n at the top, m and B at the bottom.
+Arrange A and B diagonally, and put C in container m located at the top-center.
+Put A and B in container m, located in the middle of the table.
+Arrange A, B, and m in a horizontal line and put C in m.
+Put A and B in container m, located at the bottom-left corner of the table.
+Put A in container m and place B at the top-right corner of the table.
+Place A and B in container m, and place container m to the left of container n.
+Place objects A and B diagonally, with A in container n and B outside the containers.
+Place containers m and n horizontally in the middle, with A in container m and B above container n.
+Place A and B in container n, and place container n at the bottom-right corner with container m at the bottom-left corner.
+Arrange A, B, and the containers in a diamond shape, with A in n and B outside the containers.
+Arrange objects A, B, C in a horizontal line and put B in container n.
+Put A and B in separate containers n and m, then place C above the containers.
+Place A and B in container n and put C to the right of container n.
+Place A, B, and C in container n with all objects overlapping.
+Arrange A, B, and C in a vertical line and place C inside container n.
+Arrange A and B at diagonally opposite corners and m at the center.
+Put A in m and place B to the right of m.
+Arrange A, B, and m in a horizontal line.
+Arrange A, B, and m in a vertical line.
+Put A and B in m, and place m at the top left corner.
+Arrange A, B, and C in a straight line with containers m and n below them.
+Put A in m, B to the right of A, and C in n.
+Put A and B in m, and C in n.
+Arrange m and n diagonally, with A in m, and B and C below n.
+Put A, B, and C in a triangle formation, with m above A and n above C.

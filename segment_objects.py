@@ -34,45 +34,51 @@ predictor = load_sa()
 
 
 if __name__ == "__main__":
-    parent_dir = '/home/andre/autocaptioning-modelception/images_angled'
-    # recursively get all image paths
-    image_path_by_obj = {}
-    for subdir in os.listdir(parent_dir):
-        image_path_by_obj[subdir] = []
-        for file in os.listdir(os.path.join(parent_dir, subdir)):
+    parent_dir = '/home/andre/autocaptioning-modelception/source_images/bridge_data'
+
+    for root, dirs, files in os.walk(parent_dir):
+        obj_name = root.split('/')[-1].replace('_', ' ')
+        npimgs_, bboxes_, masks_ = [], [], []
+        print('Processing ', obj_name)
+        for file in files:
             if file.endswith('.jpg'):
-                image_path_by_obj[subdir].append(os.path.join(parent_dir, subdir, file))
-    
-    
-    for obj_name in image_path_by_obj:
-        for image_path in image_path_by_obj[obj_name]:
-            image = get_img(image_path)
+                image = get_img(os.path.join(root, file))
+                image = image.resize((512, 512))
 
-            image = image.resize((512, 512))
-            
-            cg.set_words([obj_name])
-            count, bboxes, text_labels = cg.get_objects(image)
-            if len(bboxes) == 0:
-                continue
-            
-            print('found object for ', obj_name)
-            input_box = np.array(bboxes[0])
-            img = np.array(image)
-            predictor.set_image(img)
-            masks, _, _ = predictor.predict(
-                point_coords=None,
-                point_labels=None,
-                box=input_box[None, :],
-                multimask_output=False,
-            )
-            mask = masks[0]
-            input_box = input_box.astype(np.int32)
+                cg.set_words([obj_name])
+                count, bboxes, text_labels = cg.get_objects(image)
+                if len(bboxes) == 0:
+                    continue
+                
+                print('Detected object for ', obj_name)
+                input_box = np.array(bboxes[0])
+                img = np.array(image)
+                predictor.set_image(img)
+                masks, _, _ = predictor.predict(
+                    point_coords=None,
+                    point_labels=None,
+                    box=input_box[None, :],
+                    multimask_output=False,
+                )
+                mask = masks[0]
+                input_box = input_box.astype(np.int32)
 
-            # save the results
-            save_path = image_path.split('.')[0] + '%s.npy'
-            np.save(save_path % 'mask', mask)
-            np.save(save_path % 'bbox', input_box)
-            np.save(save_path % 'npimg', img)
+                npimgs_.append(img)
+                bboxes_.append(input_box)
+                masks_.append(mask)
+
+        if len(npimgs_) == 0:
+            continue
+        np.save(os.path.join(root, 'npimgs_.npy'), np.stack(npimgs_))
+        np.save(os.path.join(root, 'bboxes_.npy'), np.stack(bboxes_))
+        np.save(os.path.join(root, 'masks_.npy'), np.stack(masks_))
+
+
+        # save the results
+        # # save_path = image_path.split('/')[] + '%s.npy'
+        # np.save(save_path % 'mask', mask)
+        # np.save(save_path % 'bbox', input_box)
+        # np.save(save_path % 'npimg', img)
 
 
         

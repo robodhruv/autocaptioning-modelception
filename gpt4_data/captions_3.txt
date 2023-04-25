@@ -1,0 +1,100 @@
+Arrange A, B, and C in a horizontal line.
+Put A in a and B in b.
+Put A and B in a and place C to the right of a.
+Arrange A, B, C, a, and b in a pentagon shape.
+Put A and B in a, and place C to the left of a.
+Arrange <A>, <B>, <container a>, and <container b> in a diamond shape.
+Put <A> and <B> in <container a>, and place <container b> to the right.
+Place <A> on top of <container a>, and <B> on top of <container b>.
+Arrange objects <A>, <B>, and containers <a>, <b> in a diagonal line from bottom-left to top-right.
+Place <A> in <container a> and <B> in <container b>, and put both containers side-by-side.
+Place object <A> at the center of the table.
+Place object <A> at the top-left corner of the table.
+Place object <A> at the bottom-right corner of the table.
+Arrange object <A> in a straight line horizontally, halfway up the table.
+Place object <A> at the coordinates (4, 4) on the table.
+Arrange <A> inside <a> at the center of the table.
+Place <A> at the top left corner and <a> at the bottom right corner.
+Arrange <A> and <a> diagonally from top left to bottom right.
+Place <A> at the top right corner and <a> at the bottom left corner.
+Arrange <A> and <a> horizontally, with <a> on the left and <A> on the right.
+Arrange <A>, <B>, <C> in a horizontal line and place the containers <a> and <b> diagonally.
+Arrange <A>, <B>, <C>, <a>, and <b> into a pentagon.
+Put <A> in <a>, and <B> and <C> on top and bottom corners of the grid.
+Align the objects <A>, <B>, and <C> in a vertical column and the containers <a> and <b> in the outer bottom corners of the grid.
+Place <A> in <a> and <B> in <b>. Place <C> at the center of the grid.
+Arrange <A>, <B>, <a>, and <b> into a diamond shape.
+Put <A> in <a>, <B> in <b>, and have them diagonally spaced apart.
+Place <A> and <B> next to each other and containers <a> and <b> above them.
+Place <A> and <B> in a straight line with <a> and <b> spaced between them.
+Place <A> in <a> and <B> in <b>, and have containers <a> and <b> on opposite corners.
+Arrange <A> in <a>, and <a> is next to <b> horizontally.
+Arrange <A> between <a> and <b> diagonally.
+Put <A> in <a>, and place <a> above <b> vertically.
+Put <A> in <a>, and place <a> below <b> on a corner.
+Put <A> in <b>, and place <a> in the center of the tabletop.
+Put <A> in <a> and place <B> above <C>.
+Place <A> to the left of <a> and <B> above <C>.
+Put <B> in <a> and place <A> above <C>.
+Arrange <A>, <B>, <C> in a triangle and put <A> in <a>.
+Arrange <A>, <B>, <C> in a line and put <A> in <a>.
+Place <A> inside <a> and put <b> in the upper right corner.
+Arrange <A> in <a> and <b> diagonally.
+Place <A> inside <a> in the bottom left corner and <b> in the upper right corner.
+Arrange <A>, <a>, and <b> in a horizontal line.
+Place <A> inside <a> and arrange <a> and <b> in a vertical line.
+Arrange objects <A> and <C> inside container <a>, and place <B> to the right.
+Place object <A> at the bottom left corner, <B> to the right, and <C> in container <a> at the top center.
+Arrange objects <A>, <B>, and <C> in a vertical line and place container <a> to the left of <B>.
+Put <A> in <a>, and place them at the center while keeping <B> and <C> at diagonally opposite corners.
+Place container <a> with object <A> inside in the bottom right corner, and arrange <B> and <C> in the top left section.
+Arrange <A> in <a>, <B> in <b>.
+Put <A> at the top left corner, <B> at the top right corner, <a> at the bottom left corner, and <b> at the bottom right corner.
+Arrange <A> in <a> in the center, <B> in <b> at the bottom right corner.
+Put <A> on the left side, with <B> and <a> at the same position in the center, and <b> on the right side.
+Put <A> and <B> to the left side with <A> on top, while <a> and <b> are on the bottom right corner.
+Put <A> in <a>, and <a> to the left of <b>.
+Put <A> in <b>, and <b> to the left of <a>.
+Place <A> at the center, <a> on the bottom left corner, and <b> on the top right corner.
+Place <A> and <a> on the same row, and <b> in the opposite corner.
+Put <A> in <a>, and <a> in the center. Place <b> in the bottom right corner.
+Arrange <A>, <B>, <a>, and <b> in a square, with objects A and B in their respective containers.
+Place objects <A> and <B> in container <a>, and leave container <b> empty.
+Place object <A> in container <a>, connect container <a> and <b> with a line, and place <B> in <b>.
+Arrange the objects and containers in a diagonal line, with only object <A> in container <a>.
+Place objects <A> and <B> side by side outside of the containers, and place containers <a> and <b> side by side below them.
+Arrange objects A inside container a; place them in the center of the table.
+Place object A at the lower left corner and container a at the upper right corner of the table.
+Arrange object A and container a diagonally at the center row, starting from the lower left to the upper right.
+Put the object A at the bottom right corner and container a at the upper left corner of the table.
+Put the object A in container a and place them in the bottom center of the table.
+Arrange <A>, <B>, <a>, and <b> in a line.
+Put <A> in <a> and <B> in <b>.
+Put <A> in <a> and <B> to the right of <b>.
+Put <A> in <a> and arrange <B> and <b> diagonally below <a>.
+Arrange <A>, <B> in a vertical line and <a>, <b> in a horizontal line.
+Arrange <A> in <a> to the left of <b>.
+Arrange <A> and <a> to the left and <b> to the right.
+Put <A> in <a> on the left and <b> on the right.
+Put <A> to the left and <a> in <b>.
+Arrange <A> in <a> to the left and <b> in the middle.
+Arrange container <a> and object <A> horizontally in the middle of the table.
+Put object <A> in container <a> and place them at the center of the table.
+Place object <A> at the bottom-left corner, and container <a> at the top-right corner.
+Place container <a> at the top-left corner and object <A> to its right.
+Place object <A> at the center-bottom row and container <a> diagonally opposite to it in the center-top row.
+Arrange <A> in <a>, <B> in <b>.
+Place <A> above <a> and <B> above <b>.
+Place <A> and <B> in a diagonal line and both inside <a>.
+Place <A> inside <a>, and <B> on the left side of <b>.
+Arrange <A> and <a> in the center, and <B> and <b> at the top-right of the grid.
+Arrange <A> on the left and <a> on the right.
+Put <A> inside container <a>, place the items at the center of the table.
+Put container <a> at the top left corner and place object <A> in the bottom right corner.
+Place object <A> in the top left corner and container <a> in the bottom right corner.
+Place object <A> and container <a> diagonally with equal distance from the corners.
+Place <A> in the center of the table.
+Place <A> at the top-left corner of the table.
+Place <A> at the bottom-right corner of the table.
+Place <A> at the top-right corner and at the bottom-left corner of the table.
+Place <A> at the middle-left side and the middle-right side of the table.

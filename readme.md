@@ -1,5 +1,9 @@
 # Autocaptioning with Modelception
 
+
+### Contributors: Michael Equi, Dhruv Shah
+
+
 This notebook shows a quick walkthrough of the caption generation pipeline.
 
 1. (region proposal) Run GLIP to detect relevant objects and get crops using the bounding boxes
